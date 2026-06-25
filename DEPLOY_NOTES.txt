@@ -1,0 +1,47 @@
+Bill Counter Argentina - web nueva v1
+=======================================
+
+Objetivo:
+- Sitio estático limpio para GitHub Pages.
+- Sin Duda, sin Ecwid, sin Mapbox, sin scripts externos.
+- Home en castellano argentino.
+- Páginas internacionales livianas: en-us, en-gb, fr, ja.
+- Catálogo Argentina con precios visibles.
+- Versiones internacionales con modelos de referencia y búsqueda de partners.
+- Garantía unificada: 2 años para todos los equipos.
+
+Páginas incluidas:
+- index.html
+- productos/
+- productos/billcounter-100/
+- productos/cb210/
+- productos/cb2000/
+- productos/cb1000/
+- productos/cb3000/
+- productos/cb4000/
+- service/
+- partners/
+- contacto/
+- en-us/
+- en-gb/
+- fr/
+- ja/
+
+Contacto usado:
+- WhatsApp: +54 9 11 2321-5871
+- Mail: info@billcounter.com.ar
+- Horario: Lunes a viernes de 10 a 17 hs
+- Liniers: Tonelero 5982, Liniers, CABA · CP 1408
+- San Isidro: Av. Centenario 1137, San Isidro, GBA · CP 1642
+
+Importante para staging:
+- No incluí CNAME para no forzar todavía el dominio real.
+- Para probar en GitHub Pages, subir todo el contenido del ZIP al repo actual.
+- Cuando se quiera migrar dominio, recién ahí crear CNAME con:
+  www.billcounter.com.ar
+
+Pendientes recomendados:
+- Confirmar horario definitivo: en capturas aparece 10 a 17 y en otras 10 a 18.
+- Agregar video real de prueba con billetes argentinos cuando esté grabado.
+- Confirmar si se mantienen precios visibles o se pasa a "Consultar".
+- Agregar fotos reales del showroom/oficina cuando estén listas.
