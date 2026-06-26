@@ -408,3 +408,35 @@ h2 .blue{color:var(--blue)}
 }
 .detail-price-offer .price-before{font-size:15px}
 .detail-price-offer .price-now{font-size:34px}
+
+
+/* v3 mobile refinements */
+.mobile-flags{display:none}
+@media (max-width:920px){
+  .nav{gap:10px}
+  .mobile-menu{justify-content:flex-end;flex-wrap:wrap;line-height:1.1}
+  .mobile-menu .mobile-flags{display:inline-flex;align-items:center;gap:2px;margin-left:4px}
+  .mobile-menu .mobile-flags .flaglink{font-size:13px;padding:2px 2px}
+  .hero-media{padding:16px;border-radius:22px}
+  .notice{font-size:14px;padding:13px 14px}
+}
+@media (max-width:560px){
+  .nav{min-height:64px;gap:8px}
+  .brand img{width:140px}
+  .mobile-menu{font-size:12px;gap:4px;max-width:172px}
+  .hero{padding:34px 0 34px}
+  h1{font-size:34px;letter-spacing:-.035em}
+  .lead{font-size:16px}
+  .trust-card{padding:12px 12px;border-radius:14px;font-size:13px}
+  .trust-card strong{font-size:20px}
+  .section{padding:42px 0}
+  .section-head{margin-bottom:20px}
+  .product-img{height:178px;padding:16px}
+  .product-img img{max-height:150px}
+  .card-body{padding:16px;gap:9px}
+  .product-title{font-size:17px}
+  .product-short{font-size:13px}
+  .price{font-size:20px}
+  .btn.small{padding:9px 11px;font-size:12px}
+  .detail-box{padding:18px}
+}
